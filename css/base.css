@@ -1,0 +1,35 @@
+/*імпортуємо шрифти з Google*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+:root{
+    /* Кольори */
+    --color-dark-blue:#0E0E2C;
+    --color-yellow:#FFBE0B;
+    --color-cyan:#3A86FF;
+    --color-dark-cyan:#172656;
+    --color-pink:#FF006E;
+    --color-orange:#FB5607;
+    --color-purple:#8338EC;
+    --color-white:#FFFFFF;
+    --color-gray:#868695;
+    --color-dark-gray:#626276;
+
+    /* Шрифти та їх розміри */
+    --font-family-h: "Montserrat";
+    
+    --font-size-h1: 62px;
+    --font-size-h2: 48px;    
+    --font-size-h3: 20px;
+    --font-size-p: 16px;
+    --font-size-small-p: 14px;
+    --font-size-xsmall-p:13px;
+    /* Розміри сайту */
+    /* --width:1440px;
+    --width-headline:720px;
+    --width-ad:541px;
+    --width-content:899px;
+    --heigth-header:83px;
+    --heigth-footer:56px;
+    --img-logo:672px; */
+    /*Відступи */
+
+}

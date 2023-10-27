@@ -1,0 +1,434 @@
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+.h1{
+    font-size: var(--font-size-h1);
+    color: var(--color-white);
+}
+
+.p{
+    font-size: var(--font-size-p);
+    color: var(--color-gray);
+}
+.h2{
+    font-size: var(--font-size-h2);
+    color: var(--color-white);
+}
+.aside_h3{
+    font-size: var(--font-size-h3);
+    color: var(--color-dark-blue);
+}
+.p_small{
+    font-size: var(--font-size-xsmall-p);
+    color: var(--color-gray);
+    padding-top: 10px;
+}
+.first_block_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cr_yellow{
+    color: var(--color-yellow);
+}
+.cr_orange{
+    color: var(--color-orange);
+}
+.cr_white{
+    color: var(--color-white);
+}
+.h2__f_size{
+    font-size: 34px;
+}
+.h3__f_size{
+    font-size: var(--font-size-h3);
+}
+
+/*! Перший блок*/
+.first_section{
+    background: url(../img/bg_section1.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.first_article{
+    width: 50%;
+    height: 1046px;
+    padding-left: 130px;
+    padding-top: 175px;
+    display: flex;
+    flex-direction: column;
+}
+
+.guarantee{
+    width: 257.35px;
+    height: 39.29px;
+}
+.first_title{
+    width: 540px;
+    padding-top: 25px;
+}
+.tx_above_first{
+    width: 461.26px;
+    padding-top: 35px;
+}
+form{
+    display: inline-block;
+}
+.email{
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+    width: 485.65px;
+    height: 68.94px;
+    margin-top: 62px;
+    border-radius: 18px;
+    font-size: var(--font-size-xsmall-p);
+    color: var(--color-gray);
+    padding-left: 40px;
+}
+.email__button1 {
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+    width: 126.03px;
+    height: 50.61px;
+    border-radius: 10px;
+    color: var(--color-dark-blue);
+    font-weight: 500;
+    font-size: 2vh;
+    line-height: 15px;
+    cursor: pointer;
+    transition: color .2s;
+    position: absolute;
+    top: 753px;
+    left: 480px;
+}
+.email__button1:hover{
+    background-color: var(--color-dark-blue);
+    border-color: var(--color-yellow);
+    color: var(--color-yellow);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.power_ul ul li{
+    display: inline-block;
+    margin-top: 35px;
+    padding-right: 35px;
+    color: var(--color-white);
+    margin-bottom: 5px;
+}
+.power_ul ul li::before{
+    content: url(../img/mark1.png);
+    max-width: 30%;
+    height: 30px;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* !ASIDE! */
+.make_progress{
+    width: 192px;
+    height: 250px;
+    margin-top: 300px;
+    margin-left: 530px;
+    left: 1225px;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.make_progress__img{
+    width: 57.94px;
+    height: 76.92px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.aside2__p{
+    text-align: center;
+}
+.make_progress__buttom{
+    margin-top: 10px;
+    cursor: pointer;
+    width: 114px;
+    height: 36px;
+    border-radius: 5px;
+    background-color: var(--color-cyan);
+    color: var(--color-white);
+    font-size: var(--font-size-xsmall-p);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.women1{
+    position: absolute;
+    top: 855px;
+    left: 620px;
+    width: 170px;
+    height: 250px;
+}
+.mark_play{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 1020px;
+    left: 1015px;
+    cursor: pointer;
+}
+.aside1{
+    width: 438.64px;
+    height: 126.63px;
+    margin-top: -289px;
+    margin-left: 600px;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    padding-left: 225px;
+    padding-top: 35px;
+}
+
+/*! Другий блок*/
+.second_section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+.phone{
+    width: 50%;
+    margin-left: 40px;
+}
+
+.services{
+    margin-top: 250px;
+    width: 231.93px;
+    height: 39.29px;
+}
+.second_title{
+    width: 550px;
+    padding-top: 25px;
+}
+.article_table1{
+    margin-top: 50px;
+    line-height: 25px;
+    width: 504.02px;
+    display: flex;
+    flex-direction: row;
+}
+.article_table11{
+    width: 40%;
+}
+.article_table12{
+    margin-left: 20px;
+}
+/*! Третій блок*/
+
+.we_do{
+    width: 141.57px;
+    height: 39.29px;
+}
+.third_section{
+    display: flex;
+    flex-direction: row;
+}
+.third_title{
+    width: 550px;
+    padding-top: 25px;
+}
+.third_section__left{
+    width: 50%;
+    padding-left: 130px;
+    padding-top: 175px;
+    display: flex;
+    flex-direction: column;
+}
+.third_section__rigth{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.cell{
+    width: 267.5px;
+    height: 239.44px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.cell img{
+    width: 73.26px;
+    height: 66.28px;
+}
+.cell h3{
+    color: var(--color-white);
+    font-size: var(--font-size-h3);
+    padding-top: 20px;
+}
+.cell p{
+    color: var(--color-gray);
+    font-size: var(--font-size-small-p);
+    line-height: 25px;
+    padding-top: 25px;
+}
+.cell:hover{
+    background-color: #1A1A3D;
+    transition: 0.5s;
+}
+/*! Четвертий блок*/
+.fourth_section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+}
+.chair{
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.product{
+    margin-top: 5px;
+    width: 231.93px;
+    height: 39.29px;
+}
+.fourth_title{
+    width: 550px;
+    padding-top: 25px;
+}
+.article_table1{
+    margin-top: 50px;
+    line-height: 25px;
+    width: 504.02px;
+    display: flex;
+    flex-direction: row;
+}
+.article_table11{
+    width: 40%;
+}
+.article_table12{
+    margin-left: 20px;
+}
+.section__list{
+    padding-top: 85px;
+    
+}
+.section__list h3{
+    color: var(--color-white);
+    font-size: var(--font-size-h3);
+    margin-top: 25px;
+
+}
+.section__list p{
+    color: var(--color-gray);
+    font-size: var(--font-size-small-p);
+    line-height: 25px;
+    width: 319.94px;
+    margin-left: 55px;
+    margin-top: 25px;
+}
+.section__list h3::before{
+    content: url(../img/mark1.png);
+    max-width: 30%;
+    height: 30px;
+    padding-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/*! П'ятий блок*/
+.fifth_section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 180px; */
+}
+.fifth_section__left{
+    width: 50%;
+    padding-left: 130px;
+    padding-top: 285px;
+    display: flex;
+    flex-direction: column;
+}
+.creation{
+    width: 200px;
+    height: 40px;
+}
+.fifth_title{
+    width: 530px;
+    padding-top: 25px;
+}
+.fifth_section .tx_above_first p{
+    line-height: 28px;
+}
+.fifth_section__rigth img{
+    width: 541.83px;
+    height: 734.63px;
+    margin-left: 80px;
+}
+/*! Шостий блок*/
+.sixth_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    justify-content: center;
+    align-items: center;
+}
+.sixth_section h2{
+    color: var(--color-white);
+    font-size: var(--font-size-h2);
+}
+.sixth_section p{
+    color: var(--color-gray);
+    font-size: var(--font-size-p);
+    padding-top: 20px;
+}
+.form{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 18px;
+    border-color: var(--color-gray);
+    margin-top: 30px;
+    padding-left: 40px;
+    width: 485.65px;
+    height: 68.94px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.text{
+    font-size: var(--font-size-xsmall-p);
+    color: var(--color-gray);
+    margin-right: 140px;
+}
+
+.email__button2 {
+    border-style: solid;
+    border-width: 1px;
+    width: 126.03px;
+    height: 50.61px;
+    border-radius: 10px;
+    color: var(--color-dark-blue);
+    font-size: 2vh;
+    line-height: 15px;
+    cursor: pointer;
+    transition: color .2s;
+}
+.email__button2:hover{
+    background-color: var(--color-dark-blue);
+    border-color: var(--color-yellow);
+    color: var(--color-yellow);
+    cursor: pointer;
+    transition: 0.7s;
+}

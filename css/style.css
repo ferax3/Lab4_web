@@ -1,0 +1,23 @@
+@import url(base.css);
+@import url(reset.css);
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(media.css);
+body{
+    margin: auto;
+    background-color: var(--color-dark-blue);
+    font-family: var(--font-family-h);
+
+    /* max-width: var(--width); */
+}
+
+.bg__yellow{
+    background-color: var(--color-yellow);
+}
+.bg__dark_cyan{
+    background-color: var(--color-dark-cyan);
+    color: var(--color-cyan);
+    font-size: var(--font-size-small-p);
+    text-align: center;
+}
