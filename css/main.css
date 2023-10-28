@@ -243,8 +243,8 @@ form{
 }
 .third_section__left{
     width: 50%;
-    padding-left: 130px;
-    padding-top: 175px;
+    margin-left: 130px;
+    margin-top: 175px;
     display: flex;
     flex-direction: column;
 }
@@ -351,8 +351,8 @@ form{
 }
 .fifth_section__left{
     width: 50%;
-    padding-left: 130px;
-    padding-top: 285px;
+    margin-left: 130px;
+    margin-top: 285px;
     display: flex;
     flex-direction: column;
 }
